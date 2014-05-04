@@ -1,5 +1,5 @@
 //
-//  KJViewController.h
+//  KJTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Koby Jordan on 4/05/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KJViewController : UIViewController
+@interface KJTableViewController : UITableViewController
 
 @end

@@ -14,13 +14,13 @@
 		B2D8EE611916016E0082EF3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8EE601916016E0082EF3E /* main.m */; };
 		B2D8EE651916016E0082EF3E /* KJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8EE641916016E0082EF3E /* KJAppDelegate.m */; };
 		B2D8EE681916016E0082EF3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D8EE661916016E0082EF3E /* Main.storyboard */; };
-		B2D8EE6B1916016E0082EF3E /* KJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8EE6A1916016E0082EF3E /* KJViewController.m */; };
 		B2D8EE6D1916016E0082EF3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D8EE6C1916016E0082EF3E /* Images.xcassets */; };
 		B2D8EE741916016E0082EF3E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8EE731916016E0082EF3E /* XCTest.framework */; };
 		B2D8EE751916016E0082EF3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8EE541916016E0082EF3E /* Foundation.framework */; };
 		B2D8EE761916016E0082EF3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D8EE581916016E0082EF3E /* UIKit.framework */; };
 		B2D8EE7E1916016E0082EF3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2D8EE7C1916016E0082EF3E /* InfoPlist.strings */; };
 		B2D8EE801916016E0082EF3E /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8EE7F1916016E0082EF3E /* UITableViewController_Challenge_SolutionTests.m */; };
+		B2D8EE8B191603860082EF3E /* KJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D8EE8A191603860082EF3E /* KJTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		B2D8EE631916016E0082EF3E /* KJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJAppDelegate.h; sourceTree = "<group>"; };
 		B2D8EE641916016E0082EF3E /* KJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJAppDelegate.m; sourceTree = "<group>"; };
 		B2D8EE671916016E0082EF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2D8EE691916016E0082EF3E /* KJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJViewController.h; sourceTree = "<group>"; };
-		B2D8EE6A1916016E0082EF3E /* KJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJViewController.m; sourceTree = "<group>"; };
 		B2D8EE6C1916016E0082EF3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B2D8EE721916016E0082EF3E /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D8EE731916016E0082EF3E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B2D8EE7B1916016E0082EF3E /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		B2D8EE7D1916016E0082EF3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B2D8EE7F1916016E0082EF3E /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		B2D8EE89191603850082EF3E /* KJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTableViewController.h; sourceTree = "<group>"; };
+		B2D8EE8A191603860082EF3E /* KJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				B2D8EE631916016E0082EF3E /* KJAppDelegate.h */,
 				B2D8EE641916016E0082EF3E /* KJAppDelegate.m */,
 				B2D8EE661916016E0082EF3E /* Main.storyboard */,
-				B2D8EE691916016E0082EF3E /* KJViewController.h */,
-				B2D8EE6A1916016E0082EF3E /* KJViewController.m */,
+				B2D8EE89191603850082EF3E /* KJTableViewController.h */,
+				B2D8EE8A191603860082EF3E /* KJTableViewController.m */,
 				B2D8EE6C1916016E0082EF3E /* Images.xcassets */,
 				B2D8EE5B1916016E0082EF3E /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2D8EE6B1916016E0082EF3E /* KJViewController.m in Sources */,
 				B2D8EE611916016E0082EF3E /* main.m in Sources */,
 				B2D8EE651916016E0082EF3E /* KJAppDelegate.m in Sources */,
+				B2D8EE8B191603860082EF3E /* KJTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
